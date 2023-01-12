@@ -1,6 +1,16 @@
-a {
+
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
     text-decoration: none;
 }
-li {
+
+.list {
     list-style: none;
 }
