@@ -1,10 +1,17 @@
+:root {
+    /* Fonts */
+--main-font:'Roboto', sans-serif;
+    /* Text colors */
+
+    /* BG colors */
+}
 
 
 
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+font-family: var(--main-font)
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 .link {
