@@ -1,18 +1,38 @@
 :root {
+
     /* Fonts */
---main-font:'Roboto', sans-serif;
+
+--prim-font:'Roboto', sans-serif;
 --logo-font: 'Raleway', sans-serif;
+
     /* Text colors */
---main-color: #434455
-    /* BG colors */
+
+--prim-txt-color: #434455;
+--light-txt-color: #FFFFFF;
+--heading-txt-color: #2e2f42;
+--logo-head-color: #2e2f42;
+--logo-foot-color: #F4F4FD;
+--brand-color: #4D5AE5;
+--footer-txt-color: #E7E9FC;
+
+
+/* BG colors */
+
+--prim-bg-color: #ffffff;
+--dark-bg-color: #2E2F42;
+--light-bg-color: #F4F4FD;
+--dark-
+
+
+
+
 }
-
-
-
+   
 
 body {
-font-family: var(--main-font);
-color: var(--main-color)
+font-family: var(--prim-font);
+color: var(--prim-txt-color);
+background-color: var(--prim-bg-color);
 
 }
 
