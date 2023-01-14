@@ -33,7 +33,7 @@ body {
 font-family: var(--prim-font);
 color: var(--prim-txt-color);
 background-color: var(--prim-bg-color);
-
+letter-spacing: 0.02em;
 }
 
 .visually-hidden {
@@ -58,7 +58,17 @@ background-color: var(--prim-bg-color);
     list-style: none;
 }
 
+.title {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-txt-color);
+}
+
 /* Header */
+
+
 .logo-link {
     color: var(--brand-color);
     font-family: var(--logo-font);
@@ -71,32 +81,116 @@ background-color: var(--prim-bg-color);
     color: var(--logo-head-color);
 }
 
-.menu {
-
-
-
-}
-
+/* .menu {}
 .menu-list {}
-
 .list {}
-
 .menu-item {}
-
-.link {}
+.link {} */
 
 .menu-link {
     font-weight: 500;
-    font-size: 16px;
     line-height: calc(24 / 16);
-    letter-spacing: 0.02em;
     color: var(--title-txt-color);
 }
 
-.contacts {}
+.menu-link:hover,
+.menu-link:focus {
+color: var(--hover-link-color);
+}
 
+.current {
+    color: var(--hover-link-color);
+}
+
+/* .contacts {}
 .contacts-list {}
+.contacts-item {} */
 
-.contacts-item {}
+.contacts-link {
+    font-style: normal;
+    line-height: calc(24 / 16);
+    color: inherit;
+}
 
-.contacts-link {}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--hover-link-color);
+}
+
+
+/* Main */
+
+    /* Hero */
+
+.hero {
+    background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    text-align: center;
+    color: var(--light-txt-color);
+}
+
+.btn {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.04em;
+    color: var(--light-txt-color);
+    background-color: var(--prim-btn-bg-color);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--hover-btn-bg-color);
+}
+
+    /*Features*/
+
+/* .features {}
+.features-list {}
+.features-item {} */
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: var(--title-txt-color)
+}
+
+.features-text {
+    line-height: calc(24 / 16);
+}
+
+    /* What are we doing */
+
+/* .we-do {}
+.we-do-title {}
+.we-do-list {}
+.we-do-item {}
+.we-do-img {} */
+
+    /* Team */
+
+.team {
+    background: var(--light-bg-color)
+}
+
+.team-title {}
+
+.title {}
+
+.team-list {}
+
+.list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-text {}
+    
