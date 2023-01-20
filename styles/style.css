@@ -185,7 +185,7 @@ color: var(--hover-link-color);
     font-size: 20px;
     line-height: calc(24 / 20);
     text-align: center;
-     color: var(--title-txt-color)
+    color: var(--title-txt-color);
 }
 
 /* .team-list {
@@ -222,11 +222,11 @@ color: var(--hover-link-color);
 
 /* Main */
 
-.portfolio {}
+/* .portfolio {}
 
 .filter-list {}
 
-.filter-item {}
+.filter-item {} */
 
 .port-btn {
     color: var(--brand-color);
@@ -250,8 +250,8 @@ color: var(--hover-link-color);
     font-size: 20px;
     line-height: calc(24 / 20);
     color: var(--title-txt-color)
+    
 }
 
 /* .portfolio-text {} */
-
 
